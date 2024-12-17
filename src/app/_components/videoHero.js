@@ -37,7 +37,7 @@ const VideoHero = () => {
   }, []);
 
   return (
-    <div className="fixed inset-0 overflow-hidden">
+    <div className="fixed z-10 inset-0 overflow-hidden">
       <video
         ref={videoRef}
         className="absolute w-full h-full object-cover"
