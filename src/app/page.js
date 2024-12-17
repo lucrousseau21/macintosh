@@ -5,6 +5,9 @@ import Hello from './_components/hello';
 import HelloIMG from './_components/helloIMG';
 import Frise from './_components/frise';
 import Annee80 from './_components/1980s';
+import Annee90 from './_components/1990s';
+import Annee2000 from './_components/2000s';
+import Annee2010 from './_components/2010s';
 
 export default function Home() {
   return (
@@ -16,6 +19,9 @@ export default function Home() {
       <VideoHero className="h-[200vh]" />
       <div className="h-screen"></div>
       <Annee80 className="h-screen"/>
+      <Annee90 className="h-screen"/>
+      <Annee2000 className="h-screen"/>
+      <Annee2010 className="h-screen"/>
     </main>
   );
 }
