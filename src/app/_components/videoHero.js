@@ -80,6 +80,7 @@ const VideoHero = () => {
           end: "bottom+=200% bottom",
           scrub: true,
           markers: true,
+          pin: true,
         },
       });
 
