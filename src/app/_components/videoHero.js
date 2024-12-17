@@ -108,8 +108,7 @@ const VideoHero = () => {
          muted
        >
          <source
-           src="https://www.dropbox.com/scl/fi/qejf5dgqiv6m77d71r2ec/abstract-background-ink-water-20072.mp4?rlkey=zwgwzw4bfhx7oy034t7un6mod&raw=1"
-           type="video/mp4"
+           src="/videos/MacintoshHero.mp4"
          />
        </video>
      </div>
