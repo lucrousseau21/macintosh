@@ -9,6 +9,7 @@ import Annee90 from './_components/1990s';
 import Annee2000 from './_components/2000s';
 import Annee2010 from './_components/2010s';
 import SecondHero from './_components/SecondHero';
+import Footer from './_components/Footer';
 
 export default function Home() {
   return (
@@ -24,6 +25,8 @@ export default function Home() {
       <Annee90 className="h-screen"/>
       <Annee2000 className="h-screen"/>
       <Annee2010 className="h-screen"/>
+      <div className="h-10"/> {/* spacing */}
+      <Footer />
     </main>
   );
 }
