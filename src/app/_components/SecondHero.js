@@ -1,8 +1,8 @@
 const SecondHero = () => {
   return (
     <div className="h-[50vh] flex flex-row">
-      <div className="w-3/4">
-        <h1 className="text-4xl text-center">La grande histoire du Mac</h1>
+      <div className="w-3/4 pl-40 flex flex-col items-center">
+        <h1 className="text-4xl">La grande histoire du Mac</h1>
         <p>
           Voici une exposition virtuelle sur l'histoire du Mac d'Apple par
           décénnie
