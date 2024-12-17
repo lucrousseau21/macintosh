@@ -19,6 +19,7 @@ const VideoHero = () => {
           start: "top top",
           end: "bottom+=200% bottom",
           scrub: true,
+          prin: true,
           markers: true,
         },
       });
@@ -37,7 +38,7 @@ const VideoHero = () => {
   }, []);
 
   return (
-    <div className="fixed inset-0 overflow-hidden">
+    <div className="flex inset-0 overflow-hidden">
       <video
         ref={videoRef}
         className="absolute w-full h-full object-cover"
