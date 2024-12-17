@@ -1,5 +1,5 @@
 const Annee90 = () => {
-    return <div className="w-screen">
+    return <div className="w-screen" id="1990">
         <div className=" h-screen flex flex-col justify-between p-16">
             <h1 className="text-3xl">1990's</h1>
             <p className=" w-2/3">Les années 1990 : Renaissance et consolidation
