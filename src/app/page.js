@@ -3,6 +3,7 @@ import VideoHero from './_components/videoHero';
 import Header from './_components/header';
 import Hello from './_components/hello';
 import HelloIMG from './_components/helloIMG';
+import Frise from './_components/frise';
 import Annee80 from './_components/1980s';
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
     <main>
       <p>test</p>
       <Header />
+      <Frise />
       <Hello />
       <HelloIMG />
       <VideoHero />
