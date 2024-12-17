@@ -1,13 +1,12 @@
-// components/BackgroundVideo.js
-"use client"; // Utilisation de "client" pour activer GSAP dans un composant React
+"use client";
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import "tailwindcss/tailwind.css"; // Assurez-vous que Tailwind CSS est configuré
+import "tailwindcss/tailwind.css";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const BackgroundVideo = () => {
+const VideoHero = () => {
   const videoRef = useRef(null);
 
   useEffect(() => {
@@ -24,14 +23,12 @@ const BackgroundVideo = () => {
         },
       });
 
-      // Ajouter l'animation après le chargement des métadonnées de la vidéo
       const handleMetadataLoaded = () => {
         tl.to(coolVideo, { currentTime: coolVideo.duration });
       };
 
       coolVideo.addEventListener("loadedmetadata", handleMetadataLoaded);
 
-      // Nettoyer les écouteurs
       return () => {
         coolVideo.removeEventListener("loadedmetadata", handleMetadataLoaded);
         ScrollTrigger.kill();
@@ -58,4 +55,4 @@ const BackgroundVideo = () => {
   );
 };
 
-export default BackgroundVideo;
+export default VideoHero;
