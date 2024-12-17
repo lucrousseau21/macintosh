@@ -7,12 +7,12 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   color: var(--foreground);
@@ -21,8 +21,8 @@ body {
 }
 
 .vertical-rl {
-  -webkit-writing-mode: vertical-rl; /* Sens vertical de droite à gauche */
-  -ms-writing-mode: tb-lr;          /* Compatibilité avec les anciens navigateurs */
-  writing-mode: vertical-rl;        /* Standard CSS */
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-lr;
+  writing-mode: vertical-rl;
 }
 
