@@ -9,14 +9,13 @@ import Annee80 from './_components/1980s';
 export default function Home() {
   return (
     <main>
-      <p>test</p>
       <Header />
       <Frise />
-      <Hello />
+      {/* <Hello /> */}
       <HelloIMG />
-      <VideoHero />
-      <Annee80 />
-      <div className="h-[200vh]"></div>
+      <VideoHero className="h-[200vh]" />
+      <div className="h-screen"></div>
+      <Annee80 className="h-screen"/>
     </main>
   );
 }
