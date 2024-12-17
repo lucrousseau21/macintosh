@@ -79,8 +79,11 @@ const VideoHero = () => {
           start: "top top",
           end: "bottom+=200% bottom",
           scrub: true,
-          markers: true,
+          // markers: true,
           pin: true,
+          onUpdate: (self) => {
+            coolVideo.currentTime = coolVideo.duration * self.progress;
+          },
         },
       });
 
@@ -99,19 +102,21 @@ const VideoHero = () => {
 
   return (
     <div className="flex z-10 inset-0 overflow-hidden h-[200vh]">
-       <video
-         ref={videoRef}
-         className="absolute w-full h-full object-cover"
-         playsInline
-         webkit-playsinline="true"
-         preload="auto"
-         muted
-       >
-         <source
-           src="/videos/MacintoshHero.mp4"
-         />
-       </video>
-     </div>
+      <video
+        ref={videoRef}
+        className="absolute w-full h-full object-cover"
+        playsInline
+        webkit-playsinline="true"
+        preload="auto"
+        muted
+      >
+        <source
+          src="/videos/MacintoshHero.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+    </div>
   );
 };
 
