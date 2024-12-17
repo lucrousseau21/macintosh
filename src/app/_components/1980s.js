@@ -4,7 +4,7 @@ const Annee80 = () => {
       <div className="w-full h-screen flex">
         <div className=" h-screen flex flex-col justify-between p-16 w-1/2">
           <h1 className="text-3xl">1980's</h1>
-          <p className=" w-2/3">
+          <p>
             Les années 1980 : L’ère de la révolution informatique Le Macintosh
             original est lancé le 24 janvier 1984. Avec une publicité légendaire
             diffusée lors du Super Bowl, Apple promettait de briser le monopole
