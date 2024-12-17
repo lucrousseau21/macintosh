@@ -8,7 +8,7 @@ const SecondHero = () => {
           décénnie
         </p>
       </div>
-      <div className="h-fullw-1/4">
+      <div className="h-full w-1/4">
         <img
           src="images/steve_jobs_imac.png"
           alt="Steve Jobs et un iMac sur ses genoux"
