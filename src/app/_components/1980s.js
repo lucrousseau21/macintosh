@@ -60,7 +60,7 @@ const Annee80 = () => {
             fabrique Apple.<a className="blink">|</a>
           </p>
         </div>
-        <div className="w-1/2 h-screen pt-14 overflow-hidden">
+        <div className="w-1/2 h-screen pt-14 overflow-hidden z-30">
           <video
             ref={videoRef}
             className="absolute h-full object-cover"
@@ -69,7 +69,7 @@ const Annee80 = () => {
             preload="auto"
             muted
           >
-            <source src="/videos/Macintosh-128k.mp4" type="video/mp4" />
+            <source src="/videos/Macintosh-128k1.mp4" type="video/mp4" />
             {/* <source src="/videos/Macintosh-128k.webm" type="video/webm" /> */}
           </video>
         </div>
