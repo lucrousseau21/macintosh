@@ -11,6 +11,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        just: ['JUST', 'sans-serif'], 
+        labora: ['Labora', 'sans-serif'], 
+      }
     },
   },
   plugins: [],
