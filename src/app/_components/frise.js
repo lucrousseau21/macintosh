@@ -40,7 +40,7 @@ const Frise = () => {
         <a
           key={year}
           href={`#${year}`}
-          className={`py-2 rounded-full transition-all ${
+          className={`py-2 rounded-full transition-all select-none ${
             activeId === year ? "bg-blue-500 text-white" : "hover:bg-gray-600/20"
           }`}
         >
