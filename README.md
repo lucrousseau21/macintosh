@@ -17,3 +17,6 @@ Ce site propose de se plonger dans l'histoire du produit d'Apple par décennie.
 - [NextJS](https://nextjs.org)
 - [Tailwind CSS](https://tailwindcss.com)
 - [GSAP](https://gsap.com)
+
+## 📼 Enregistrement vidéo
+Voici un enregistrement vidéo du rendu de notre site: [https://youtu.be/kGgHyy8Z5N0](https://youtu.be/kGgHyy8Z5N0)
