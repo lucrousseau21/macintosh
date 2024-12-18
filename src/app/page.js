@@ -21,9 +21,9 @@ export default function Home() {
       <div className="h-screen"/> {/* pour permettre de laisser la place au pin de la vidéo */}
       <div className="h-10"/> {/* spacing */}
       <SecondHero />
-      <Transition />
       <div className="h-10"/> {/* spacing */}
       <Annee80 className="h-screen"/>
+      <Transition />
       <Annee90 className="h-screen"/>
       <Annee2000 className="h-screen"/>
       <Annee2010 className="h-screen"/>
