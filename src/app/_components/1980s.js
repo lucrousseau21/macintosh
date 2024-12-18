@@ -45,8 +45,7 @@ const Annee80 = () => {
         <div className=" h-screen flex flex-col justify-between p-32 w-1/2">
           <h1 className="text-3xl">1980's</h1>
           <p font-just text-lg>
-            Les années 1980 : L’ère de la révolution informatique Le Macintosh
-            original est lancé le 24 janvier 1984. Avec une publicité légendaire
+            Le Macintosh original est lancé le 24 janvier 1984. Avec une publicité légendaire
             diffusée lors du Super Bowl, Apple promettait de briser le monopole
             d'IBM et d'apporter l'informatique personnelle au grand public.
             Steve Jobs a insisté sur un design minimaliste et épuré. Le boîtier

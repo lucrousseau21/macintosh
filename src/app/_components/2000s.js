@@ -5,8 +5,7 @@ const Annee2000 = () => {
         <div className=" h-screen flex flex-col justify-between p-32 w-1/2">
           <h1 className="text-3xl">2000's</h1>
           <p>
-            Les années 2000 : La convergence entre design et puissance En 2006,
-            Apple amorce la transition vers les processeurs Intel, une décision
+            En 2006, Apple amorce la transition vers les processeurs Intel, une décision
             qui transformera la gamme Mac. Le MacBook Pro devient l’ordinateur
             portable de référence pour les créateurs. Steve Jobs voulait un
             produit "sexy et professionnel". Le MacBook Pro, avec son boîtier
