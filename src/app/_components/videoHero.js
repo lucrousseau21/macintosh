@@ -13,6 +13,39 @@ const VideoHero = () => {
   useEffect(() => {
     const coolVideo = videoRef.current;
 
+    // // pour le bug de la vidéo qui disparait parfois
+    // const videoElement = videoRef.current;
+
+    // const handleLoadedData = () => {
+    //   console.log("Video loaded");
+    // };
+
+    // const handlePlay = () => {
+    //   console.log("Video playing");
+    // };
+
+    // const handlePause = () => {
+    //   console.log("Video paused");
+    // };
+
+    // const handleEnded = () => {
+    //   console.log("Video ended");
+    // };
+
+    // if (videoElement) {
+    //   videoElement.addEventListener("loadeddata", handleLoadedData);
+    //   videoElement.addEventListener("play", handlePlay);
+    //   videoElement.addEventListener("pause", handlePause);
+    //   videoElement.addEventListener("ended", handleEnded);
+
+    //   return () => {
+    //     videoElement.removeEventListener("loadeddata", handleLoadedData);
+    //     videoElement.removeEventListener("play", handlePlay);
+    //     videoElement.removeEventListener("pause", handlePause);
+    //     videoElement.removeEventListener("ended", handleEnded);
+    //   };
+    // }
+
     if (coolVideo) {
       let tl = gsap.timeline({
         scrollTrigger: {
@@ -36,10 +69,10 @@ const VideoHero = () => {
 
       return () => {
         coolVideo.removeEventListener("loadedmetadata", handleMetadataLoaded);
-        ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+        ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
         if (animationFrameRef.current) {
           cancelAnimationFrame(animationFrameRef.current);
-        };
+        }
       };
     }
   }, []);
@@ -54,10 +87,7 @@ const VideoHero = () => {
         preload="auto"
         muted
       >
-        <source
-          src="/videos/MacintoshHero_convert.mp4"
-          type="video/mp4"
-        />
+        <source src="/videos/MacintoshHero_convert.mp4" type="video/mp4" />
         {/* <source
           src="/videos/MacintoshHero2.webm"
           type="video/webm"
@@ -68,8 +98,6 @@ const VideoHero = () => {
 };
 
 export default VideoHero;
-
-
 
 // essai de correction des lags sur chrome
 
