@@ -14,6 +14,20 @@
   }
 } */
 
+@font-face {
+  font-family: 'JUST';
+  src: url('/fonts/JUST-Sans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Labora';
+  src: url('/fonts/Lebora-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
