@@ -19,7 +19,7 @@ const Annee80 = () => {
           start: "top-=60% top",
           end: "bottom+=100% bottom",
           scrub: true,
-          markers: true,
+          // markers: true,
           // pin: true,
           onUpdate: (self) => {
             coolVideo.currentTime = coolVideo.duration * self.progress;
