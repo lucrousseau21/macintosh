@@ -41,7 +41,8 @@ const Annee2000 = () => {
   }, []);
   return (
     <section className="w-screen" id="2000">
-      <div className="w-full h-screen flex">
+      <div className="w-full h-screen flex relative">
+      <img className="absolute w-40 z-50 bottom-20 left-96 translate-x-40 rotate-12 rotate-8" src="images/imac_g4.png"/>
         <div className="h-screen flex flex-col justify-between p-32 w-1/2 relative">
           <h1 className="text-3xl">2000's</h1>
           <div className="absolute w-2/3 z-0 bottom-32 rounded-xl h-80 overflow-hidden border-2 border-black">

@@ -41,7 +41,9 @@ const Annee2010 = () => {
       }, []);
   return (
     <section className="w-screen" id="2010">
-      <div className="w-full h-screen flex">
+      <div className="w-full h-screen flex relative">
+      <img className="absolute w-40 z-50 bottom-20 right-96 -translate-x-40 rotate-8" src="images/mac_enveloppe.png"/>
+
       <div className="w-1/2 h-screen pt-14 overflow-hidden z-30 relative">
           <video
             ref={videoRef}
