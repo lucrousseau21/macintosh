@@ -10,6 +10,7 @@ import Annee2000 from './_components/2000s';
 import Annee2010 from './_components/2010s';
 import SecondHero from './_components/SecondHero';
 import Footer from './_components/Footer';
+import Transition from './_components/transition';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <div className="h-screen"/> {/* pour permettre de laisser la place au pin de la vidéo */}
       <div className="h-10"/> {/* spacing */}
       <SecondHero />
+      <Transition />
       <div className="h-10"/> {/* spacing */}
       <Annee80 className="h-screen"/>
       <Annee90 className="h-screen"/>
