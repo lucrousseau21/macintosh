@@ -15,15 +15,15 @@
 } */
 
 @font-face {
-  font-family: 'JUST';
-  src: url('/fonts/JUST-Sans.ttf') format('truetype');
+  font-family: "JUST";
+  src: url("/fonts/JUST-Sans.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Labora';
-  src: url('/fonts/Lebora-Regular.ttf') format('truetype');
+  font-family: "Labora";
+  src: url("/fonts/Lebora-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -44,9 +44,32 @@ body {
   animation: blink 1s infinite;
   color: blue;
 }
-@keyframes blink { 
-  0% { opacity:0; }
-  50% { opacity:1; } 
-  100% { opacity:0; }
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
+.maFenetreTextEdit {
+  background-image: url("../../public/images/1984.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 60px;
+  /* background-color: red; */
+  height: 320px;
+  /* overflow: scroll; */
+}
+.maFenetreTextEdit div p {
+  padding-bottom: 8px;
+}
+
+.maFenetreTextEdit div {
+  /* background-color: blue; */
+  overflow: scroll;
+}
