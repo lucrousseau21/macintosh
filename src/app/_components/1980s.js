@@ -8,6 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Annee80 = () => {
   const videoRef = useRef(null);
+  const animationFrameRef = useRef(null);
 
   useEffect(() => {
     const coolVideo = videoRef.current;
@@ -36,6 +37,9 @@ const Annee80 = () => {
       return () => {
         coolVideo.removeEventListener("loadedmetadata", handleMetadataLoaded);
         ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+        if (animationFrameRef.current) {
+          cancelAnimationFrame(animationFrameRef.current);
+        };
       };
     }
   }, []);
@@ -78,7 +82,7 @@ const Annee80 = () => {
             preload="auto"
             muted
           >
-            <source src="/videos/Macintosh-128k1.mp4" type="video/mp4" />
+            <source src="/videos/Macintosh1980_convert.mp4" type="video/mp4" />
             {/* <source src="/videos/Macintosh-128k.webm" type="video/webm" /> */}
           </video>
         </div>

@@ -8,6 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const VideoHero = () => {
   const videoRef = useRef(null);
+  const animationFrameRef = useRef(null);
 
   useEffect(() => {
     const coolVideo = videoRef.current;
@@ -36,6 +37,9 @@ const VideoHero = () => {
       return () => {
         coolVideo.removeEventListener("loadedmetadata", handleMetadataLoaded);
         ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+        if (animationFrameRef.current) {
+          cancelAnimationFrame(animationFrameRef.current);
+        };
       };
     }
   }, []);
@@ -51,7 +55,7 @@ const VideoHero = () => {
         muted
       >
         <source
-          src="/videos/MacintoshHero.mp4"
+          src="/videos/MacintoshHero_convert.mp4"
           type="video/mp4"
         />
         {/* <source
