@@ -8,11 +8,16 @@ const Frise = () => {
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
+        let visibleId = null;
+
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            setActiveId(entry.target.id); // Mettre à jour l'ID actif
+            visibleId = entry.target.id; // Mettre à jour l'ID de la section visible
           }
         });
+
+        // Si aucune section n'est visible, réinitialiser l'état
+        setActiveId(visibleId);
       },
       {
         root: null, // Utiliser la fenêtre comme conteneur
@@ -20,7 +25,7 @@ const Frise = () => {
       }
     );
 
-    // Ciblez toutes les sections avec des IDs correspondants
+    // Observer toutes les sections
     const sections = document.querySelectorAll("section");
     sections.forEach((section) => observer.observe(section));
 
