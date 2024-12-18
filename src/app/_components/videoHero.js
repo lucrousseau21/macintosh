@@ -41,10 +41,10 @@ const VideoHero = () => {
   }, []);
 
   return (
-    <div className="flex z-10 inset-0 overflow-hidden h-[200vh]">
+    <div className="flex inset-0 overflow-hidden h-[200vh] z-50">
       <video
         ref={videoRef}
-        className="absolute w-full h-full object-cover"
+        className="absolute w-full h-full object-cover z-50"
         playsInline
         webkit-playsinline="true"
         preload="auto"

@@ -15,8 +15,8 @@ export default function Home() {
   return (
     <main>
       <Header />
-      <Frise />
       <VideoHero className="h-[200vh]" />
+      <Frise />
       <div className="h-screen"/> {/* pour permettre de laisser la place au pin de la vidéo */}
       <div className="h-10"/> {/* spacing */}
       <SecondHero />
