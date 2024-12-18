@@ -26,3 +26,12 @@ body {
   writing-mode: vertical-rl;
 }
 
+.blink {
+  animation: blink 1s infinite;
+  color: blue;
+}
+@keyframes blink { 
+  0% { opacity:0; }
+  50% { opacity:1; } 
+  100% { opacity:0; }
+}

@@ -17,7 +17,7 @@ const Annee80 = () => {
             initiales furent modestes (70 000 unités en 6 mois), le Macintosh
             128K a posé les bases des ordinateurs modernes. Sa philosophie de
             design simple et centrée sur l’utilisateur deviendra une marque de
-            fabrique Apple.
+            fabrique Apple.<a className="blink">|</a>
           </p>
         </div>
         <div className="w-1/2 h-screen bg-red-500 pt-14">

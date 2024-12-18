@@ -15,7 +15,7 @@ const Annee2000 = () => {
             la perfection minimaliste. Le MacBook Pro devient rapidement l’outil
             de prédilection pour les développeurs, graphistes et monteurs vidéo.
             Il a contribué à positionner Apple comme une marque incontournable
-            pour les professionnels.
+            pour les professionnels.<a className="blink">|</a>
           </p>
         </div>
         <div className="w-1/2 h-screen bg-red-500 pt-14">

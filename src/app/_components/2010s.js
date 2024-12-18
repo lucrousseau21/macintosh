@@ -16,7 +16,7 @@ const Annee2010 = () => {
             a établi un standard pour les ordinateurs ultraportables,
             influençant même ses concurrents. Le MacBook Air est devenu le
             produit le plus vendu de la gamme Mac, représentant 40 % des ventes
-            d’ordinateurs Apple en 2011.
+            d’ordinateurs Apple en 2011.<a className="blink">|</a>
           </p>
         </div>
       </div>

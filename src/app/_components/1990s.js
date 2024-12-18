@@ -19,7 +19,7 @@ const Annee90 = () => {
             tendances technologiques : "Nous n’avons pas peur de dire au monde
             ce qui va disparaître. Nous croyons en l’avenir." L’iMac G3 a vendu
             800 000 unités en 5 mois, sauvant Apple de la faillite. Il a aussi
-            popularisé l’USB comme standard industriel.
+            popularisé l’USB comme standard industriel.<a className="blink">|</a>
           </p>
         </div>
       </div>
