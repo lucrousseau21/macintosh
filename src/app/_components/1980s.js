@@ -16,7 +16,7 @@ const Annee80 = () => {
       let tl = gsap.timeline({
         scrollTrigger: {
           trigger: coolVideo,
-          start: "top-=100% top",
+          start: "top-=60% top",
           end: "bottom+=100% bottom",
           scrub: true,
           markers: true,
@@ -60,7 +60,7 @@ const Annee80 = () => {
             fabrique Apple.<a className="blink">|</a>
           </p>
         </div>
-        <div className="w-1/2 h-screen pt-14 overflow-hidden z-30">
+        <div className="w-1/2 h-screen pt-14 overflow-hidden z-30 relative">
           <video
             ref={videoRef}
             className="absolute h-full object-cover"

@@ -22,11 +22,17 @@ export default function Home() {
       <SecondHero />
       <div className="h-10"/> {/* spacing */}
       <Annee80 className="h-screen"/>
+      <div className="h-10"/> {/* spacing */}
       <Transition />
+      <div className="h-10"/> {/* spacing */}
       <Annee90 className="h-screen"/>
+      <div className="h-10"/> {/* spacing */}
       <Transition />
+      <div className="h-10"/> {/* spacing */}
       <Annee2000 className="h-screen"/>
+      <div className="h-10"/> {/* spacing */}
       <Transition />
+      <div className="h-10"/> {/* spacing */}
       <Annee2010 className="h-screen"/>
       <div className="h-10"/> {/* spacing */}
       <Footer />
