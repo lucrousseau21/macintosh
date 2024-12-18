@@ -42,7 +42,7 @@ const Annee90 = () => {
   return (
     <section className="w-screen" id="1990">
       <div className="w-full h-screen flex relative">
-      <img className="absolute w-80 z-50 bottom-6 -rotate-12 right-96 -translate-x-24 rotate-8" src="images/iMac-G3_orange.png"/>
+      <img className="absolute w-80 z-50 bottom-6 -rotate-12 right-80 -translate-x-24 rotate-8" src="images/iMac-G3_orange.png"/>
         <div className="w-1/2 h-screen pt-14 overflow-hidden z-30 relative">
           <video
             ref={videoRef}
@@ -59,7 +59,7 @@ const Annee90 = () => {
         <div className="h-screen flex flex-col justify-between p-32 w-1/2 relative">
           <h1 className="text-3xl relative z-10 self-end">1990's</h1>
           <div className="absolute w-2/3 z-0 bottom-32 rounded-xl h-80 overflow-hidden border-2 border-black">
-            <div className="h-1/4" h-full>
+            <div className="h-1/4">
               <img src="images/1990-barre.png" className="w-full h-full" />
             </div>
             <div className="w-full h-3/4 overflow-scroll">

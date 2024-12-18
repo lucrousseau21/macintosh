@@ -46,7 +46,7 @@ const Annee2000 = () => {
         <div className="h-screen flex flex-col justify-between p-32 w-1/2 relative">
           <h1 className="text-3xl">2000's</h1>
           <div className="absolute w-2/3 z-0 bottom-32 rounded-xl h-80 overflow-hidden border-2 border-black">
-            <div className="h-1/4" h-full>
+            <div className="h-1/4">
               <img src="images/2006-barre.png" className="w-full h-full" />
             </div>
             <div className="w-full h-3/4 overflow-scroll">

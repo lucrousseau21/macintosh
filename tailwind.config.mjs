@@ -13,7 +13,7 @@ export default {
       },
       fontFamily: {
         just: ['JUST', 'sans-serif'], 
-        labora: ['Labora', 'sans-serif'], 
+        labora: ['Labora', 'just', 'sans-serif'], 
       }
     },
   },

@@ -7,7 +7,7 @@ const SecondHero = () => {
           L'exposition virtuelle sur l'histoire du Mac d'Apple par
           décénnie.
         </p>
-        <a href="#1980" className="bg-blue-500 w-fit text-white text-lg px-5 py-2 rounded-full border-2 border-blue-500 hover:bg-white hover:text-blue-500">Découvrir</a>
+        <a href="#1980" className="bg-blue-500 w-fit text-white text-lg px-5 py-2 rounded-full border-2 border-blue-500 hover:bg-white hover:text-blue-500 hover:shadow-xl hover:shadow-blue-300">Découvrir</a>
       </div>
       <div className="h-full w-1/2 flex items-center justify-center pb-8">
         <img

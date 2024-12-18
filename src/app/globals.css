@@ -79,3 +79,8 @@ body {
   -webkit-filter: drop-shadow(5px 5px 0px #0000005b);
   filter: drop-shadow(5px 5px 0px #21212151);
 }
+
+.scrollablediv{
+  scrollbar-color: #555 #f1f1f1;
+  scrollbar-width: thin;  
+}
