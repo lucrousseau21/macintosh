@@ -21,7 +21,7 @@ const Transition = () => {
 
       {/* Plume animée */}
       <img
-        className="absolute bottom-10 left-2/3 z-30 w-16"
+        className="absolute bottom-10 left-2/3 z-30 w-16 ombre"
         src="images/plume.png"
         alt="Plume"
         data-aos="fade-left" // Animation AOS
@@ -29,7 +29,7 @@ const Transition = () => {
 
       {/* Zoom animé */}
       <img
-        className="absolute bottom-24 left-1/4 z-30 w-16"
+        className="absolute bottom-24 left-1/4 z-30 w-16 ombre"
         src="images/zoom.png"
         alt="Zoom"
         data-aos="fade-right" // Animation AOS
