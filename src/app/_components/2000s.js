@@ -42,10 +42,15 @@ const Annee2000 = () => {
   return (
     <section className="w-screen" id="2000">
       <div className="w-full h-screen flex">
-        <div className=" h-screen flex flex-col justify-between p-32 w-1/2">
+        <div className="h-screen flex flex-col justify-between p-32 w-1/2 relative">
           <h1 className="text-3xl">2000's</h1>
-          <p>
-            En 2006, Apple amorce la transition vers les processeurs Intel, une
+          <div className="absolute w-2/3 z-0 bottom-32 rounded-xl h-80 overflow-hidden border-2 border-black">
+            <div className="h-1/4" h-full>
+              <img src="images/2006-barre.png" className="w-full h-full" />
+            </div>
+            <div className="w-full h-3/4 overflow-scroll">
+              <p className="font-just pl-6 pr-6 pb-6 pt-2 relative z-10">
+              En 2006, Apple amorce la transition vers les processeurs Intel, une
             décision qui transformera la gamme Mac. Le MacBook Pro devient
             l’ordinateur portable de référence pour les créateurs. Steve Jobs
             voulait un produit "sexy et professionnel". Le MacBook Pro, avec son
@@ -56,7 +61,9 @@ const Annee2000 = () => {
             et monteurs vidéo. Il a contribué à positionner Apple comme une
             marque incontournable pour les professionnels.
             <a className="blink">|</a>
-          </p>
+              </p>
+            </div>
+          </div>
         </div>
         <div className="w-1/2 h-screen pt-14 overflow-hidden z-30 relative">
           <video

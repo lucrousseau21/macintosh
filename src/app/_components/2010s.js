@@ -55,10 +55,15 @@ const Annee2010 = () => {
             {/* <source src="/videos/Macintosh-128k.webm" type="video/webm" /> */}
           </video>
         </div>
-        <div className=" h-screen flex flex-col justify-between p-32 w-1/2">
-          <h1 className="text-3xl self-end">2010's</h1>
-          <p>
-            Le MacBook Air, initialement lancé en 2008, prend son envol en 2010 avec une
+        <div className="h-screen flex flex-col justify-between p-32 w-1/2 relative">
+          <h1 className="text-3xl relative z-10 self-end">2010's</h1>
+          <div className="absolute w-2/3 z-0 bottom-32 rounded-xl h-80 overflow-hidden border-2 border-black">
+            <div className="h-1/4" h-full>
+              <img src="images/2010-barre.png" className="w-full h-full" />
+            </div>
+            <div className="w-full h-3/4 overflow-scroll">
+              <p className="font-just pl-6 pr-6 pb-6 pt-2 relative z-10">
+              Le MacBook Air, initialement lancé en 2008, prend son envol en 2010 avec une
             refonte majeure. Ultra-fin, il tient dans une enveloppe (comme l’a
             démontré Jobs lors de la keynote). Le design est optimisé grâce au
             stockage SSD, éliminant les disques durs encombrants. Le MacBook Air
@@ -66,7 +71,9 @@ const Annee2010 = () => {
             influençant même ses concurrents. Le MacBook Air est devenu le
             produit le plus vendu de la gamme Mac, représentant 40 % des ventes
             d’ordinateurs Apple en 2011.<a className="blink">|</a>
-          </p>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
