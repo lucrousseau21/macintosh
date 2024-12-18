@@ -40,7 +40,7 @@ const Annee2010 = () => {
         }
       }, []);
   return (
-    <div className="w-screen" id="2010">
+    <section className="w-screen" id="2010">
       <div className="w-full h-screen flex">
       <div className="w-1/2 h-screen pt-14 overflow-hidden z-30 relative">
           <video
@@ -69,7 +69,7 @@ const Annee2010 = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
