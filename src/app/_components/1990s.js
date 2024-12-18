@@ -39,14 +39,17 @@ const Annee90 = () => {
         ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
         if (animationFrameRef.current) {
           cancelAnimationFrame(animationFrameRef.current);
-        };
+        }
       };
     }
   }, []);
   return (
     <section className="w-screen" id="1990">
       <div className="w-full h-screen flex relative">
-      <img className="absolute w-80 z-50 bottom-6 -rotate-12 right-80 -translate-x-24 rotate-8" src="images/iMac-G3_orange.png"/>
+        <img
+          className="absolute w-80 z-50 bottom-80 -rotate-45 right-80 -translate-x-24 rotate-8"
+          src="images/iMac-G3_orange.png"
+        />
         <div className="w-1/2 h-screen pt-14 overflow-hidden z-30 relative">
           <video
             ref={videoRef}
@@ -57,7 +60,6 @@ const Annee90 = () => {
             muted
           >
             <source src="/videos/Macintosh1990_convert.mp4" type="video/mp4" />
-            {/* <source src="/videos/Macintosh-128k.webm" type="video/webm" /> */}
           </video>
         </div>
         <div className="h-screen flex flex-col justify-between p-32 w-1/2 relative">
