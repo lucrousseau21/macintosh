@@ -17,6 +17,12 @@ Ce site propose de se plonger dans l'histoire du produit d'Apple par décennie.
 - [NextJS](https://nextjs.org)
 - [Tailwind CSS](https://tailwindcss.com)
 - [GSAP](https://gsap.com)
+- [Animate On Scroll Library (AOS)](https://michalsnik.github.io/aos/)
 
 ## 📼 Enregistrement vidéo
 Voici un enregistrement vidéo du rendu de notre site: [https://youtu.be/kGgHyy8Z5N0](https://youtu.be/kGgHyy8Z5N0)
+
+## 🚀 Pour installer le projet localement
+- `npm install`
+- `npm run build`
+- `npm run start`
