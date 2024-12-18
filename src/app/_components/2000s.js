@@ -43,7 +43,7 @@ const Annee2000 = () => {
     <section className="w-screen" id="2000">
       <div className="w-full h-screen flex">
         <div className=" h-screen flex flex-col justify-between p-32 w-1/2">
-          <h1 className="text-3xl">2000's</h1>
+          <h1 className="text-5xl">2000's</h1>
           <p>
             En 2006, Apple amorce la transition vers les processeurs Intel, une
             décision qui transformera la gamme Mac. Le MacBook Pro devient

@@ -43,7 +43,8 @@ const Annee80 = () => {
     <section className="w-screen" id="1980">
       <div className="w-full h-screen flex">
         <div className="h-screen flex flex-col justify-between p-32 w-1/2 relative">
-          <h1 className="text-3xl relative z-10">1980's</h1>
+          <h1 className="text-5xl relative z-10">1980's</h1>
+          <img className="absolute w-28 z-50 bottom-20 right-20 rotate-12" src="images/dame.png"/>
           <div className="absolute w-2/3 z-0 bottom-32 rounded-xl h-80 overflow-hidden border-2 border-black">
             <div className="h-1/4" h-full>
               <img src="images/1990-barre.png" className="w-full h-full" />

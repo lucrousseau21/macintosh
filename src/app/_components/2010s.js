@@ -56,7 +56,7 @@ const Annee2010 = () => {
           </video>
         </div>
         <div className=" h-screen flex flex-col justify-between p-32 w-1/2">
-          <h1 className="text-3xl self-end">2010's</h1>
+          <h1 className="text-5xl self-end">2010's</h1>
           <p>
             Le MacBook Air, initialement lancé en 2008, prend son envol en 2010 avec une
             refonte majeure. Ultra-fin, il tient dans une enveloppe (comme l’a
