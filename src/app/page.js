@@ -19,13 +19,14 @@ export default function Home() {
       <VideoHero className="h-[200vh]" />
       <Frise />
       <div className="h-screen"/> {/* pour permettre de laisser la place au pin de la vidéo */}
-      <div className="h-10"/> {/* spacing */}
       <SecondHero />
-      <Transition />
       <div className="h-10"/> {/* spacing */}
       <Annee80 className="h-screen"/>
+      <Transition />
       <Annee90 className="h-screen"/>
+      <Transition />
       <Annee2000 className="h-screen"/>
+      <Transition />
       <Annee2010 className="h-screen"/>
       <div className="h-10"/> {/* spacing */}
       <Footer />
