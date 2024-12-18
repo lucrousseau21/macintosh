@@ -47,14 +47,10 @@ const Annee80 = () => {
           <img className="absolute w-28 z-50 bottom-20 right-20 rotate-12" src="images/dame.png"/>
           <div className="absolute w-2/3 z-0 bottom-32 rounded-xl h-80 overflow-hidden border-2 border-black">
             <div className="h-1/4" h-full>
-              <img src="images/1990-barre.png" className="w-full h-full" />
+              <img src="images/1984-barre.png" className="w-full h-full" />
             </div>
-            {/* <img
-              src="images/1984.png"
-              className="absolute w-2/3 z-0 bottom-32 rounded-xl"
-            /> */}
             <div className="w-full h-3/4 overflow-scroll">
-              <p className="font-just p-6 relative z-10">
+              <p className="font-just pl-6 pr-6 pb-6 pt-2 relative z-10">
                 Le Macintosh original est lancé le 24 janvier 1984. Avec une
                 publicité légendaire diffusée lors du Super Bowl, Apple
                 promettait de briser le monopole d'IBM et d'apporter
