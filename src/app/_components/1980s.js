@@ -42,7 +42,7 @@ const Annee80 = () => {
   return (
     <div className="w-screen" id="1980">
       <div className="w-full h-screen flex">
-        <div className=" h-screen flex flex-col justify-between p-16 w-1/2">
+        <div className=" h-screen flex flex-col justify-between p-32 w-1/2">
           <h1 className="text-3xl">1980's</h1>
           <p font-just text-lg>
             Les années 1980 : L’ère de la révolution informatique Le Macintosh
