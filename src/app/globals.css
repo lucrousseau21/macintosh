@@ -56,20 +56,17 @@ body {
   }
 }
 
-.maFenetreTextEdit {
+/* .maFenetreTextEdit {
   background-image: url("../../public/images/1984.png");
   background-size: contain;
   background-repeat: no-repeat;
   padding-top: 60px;
-  /* background-color: red; */
   height: 320px;
-  /* overflow: scroll; */
 }
 .maFenetreTextEdit div p {
   padding-bottom: 8px;
 }
 
 .maFenetreTextEdit div {
-  /* background-color: blue; */
   overflow: scroll;
-}
+} */
