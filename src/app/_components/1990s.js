@@ -57,7 +57,7 @@ const Annee90 = () => {
         </div>
         <div className=" h-screen flex flex-col justify-between p-32 w-1/2">
           <h1 className="text-3xl self-end">1990's</h1>
-          <p className="text-right">
+          <p>
             Les années 1990 : Renaissance et consolidation Après une décennie de
             luttes internes et une perte d’identité, Steve Jobs revient chez
             Apple en 1997. L’iMac G3, lancé en 1998, est son premier produit
