@@ -54,6 +54,10 @@ const VideoHero = () => {
           src="/videos/MacintoshHero.mp4"
           type="video/mp4"
         />
+        {/* <source
+          src="/videos/MacintoshHero2.webm"
+          type="video/webm"
+        /> */}
       </video>
     </div>
   );
